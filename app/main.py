@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+app_test = FastAPI()
 
-@app.get("/")
+@app_test.get("/")
 def homepage():
     return {"message": "Hello fastapi bro!"}
